@@ -97,8 +97,8 @@ decimals, never floats.
 | --- | --- |
 | `src/ebay_sourcing/errors.py` | **Done** — exception hierarchy plus eBay error-body parsing. |
 | `src/ebay_sourcing/config.py` | **Done** — environment settings, watch definitions, TOML watchlist loader, eBay filter builder. |
-| `src/ebay_sourcing/models.py` | **Done** — typed, defensive parsers for every documented response shape. |
-| `src/ebay_sourcing/client.py` | Next — OAuth token handling, retry and rate-limit policy, Browse and Item calls. |
+| `src/ebay_sourcing/models.py` | Next — typed, defensive parsers for every documented response shape. |
+| `src/ebay_sourcing/client.py` | Planned — OAuth token handling, retry and rate-limit policy, Browse and Item calls. |
 | `src/ebay_sourcing/analytics.py` | Planned — price, seller and condition statistics. |
 | `src/ebay_sourcing/inventory.py` | Planned — stock level derivation. |
 | `src/ebay_sourcing/procurement.py` | Planned — candidate ranking. |
